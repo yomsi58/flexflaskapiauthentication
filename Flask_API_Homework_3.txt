@@ -1,0 +1,26 @@
+Inside of your car collection api project that you have been working in this week, you will now need to create login functionality with Flask Login.
+
+You will need the following packages for the project:
+flask-login (Flask-Login==0.5.0) - pip install Flask-Login
+secrets (import secrets)
+flask-marshmallow (flask-marshmallow==0.14.0) - pip install flask-marshmallow
+
+By the end of tonight's homework, you should be able to log in and log out via email/password and create CRUD API routes.
+
+
+While logged in, you should also be able to access your profile page (this should be a protected route, only available for authed users)
+
+
+Once your are able to login and access your token, you should then be able to create your CRUD operations
+CREATE - Car
+RETRIEVE - Cars/Car (get all and single drone(s))
+UPDATE - Car
+DELETE - Car
+
+
+Also, you will need to create at least one car 🚗(possibly two if you are using numeric as a datatype for your Car model) to verify that your API route has a token passed to it.
+
+Once completed, please send the updated code to your project's repository. Then submit the link to google classroom.
+
+ElephantSQL: Flask_Car_Inventory_Collection_HW_3
+Insomnia: Flask_Car_Inventory_Collection_HW_3
